@@ -2,10 +2,18 @@
 
 # Global
 sxhkd &
+mpd &
 
 # Wallpaper
 nitrogen --restore &
 
 # Panel
-~/.config/polybar/themes/sero/sero.conf &
+~/.config/polybar/themes/T1/launch.sh &
+
+# Conky
+conky -c ~/.config/conky/themes/T1/config &
+
+# Notification
+/usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd &
+
 
