@@ -1,8 +1,12 @@
-# The Keybinds Setting File #
+# A Keybinds for Launch The Applications #
 
 # Global
 super + Escape
   pkill xfwm4
+
+# Lockscreen
+super + Delete
+  xtrlock
 
 # Terminal
 super + Return
@@ -16,6 +20,7 @@ super + d
 super + b
   chromium
 
-# Lockscreen
-super + Delete
-  xtrlock
+# Menu
+super + @space
+  rofi -show drun
+
