@@ -17,6 +17,7 @@ xfwm tilling, yups you can make xfwm like tilling window manager just using the 
 the theme i used on this config :) thanks for all creator !!! \
 
 
+
 ### another polybar theme
 ![My Image](https://github.com/diws1/xfwm-standalone/blob/main/screenshots/xfwm_idle2.png)
 you can select the polybar theme on my another repos :)
