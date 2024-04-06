@@ -1,0 +1,26 @@
+; Polybar Theme 1 (T1)
+
+[module/RSEP]
+type = custom/text
+content = "🙼"
+content-background = #141819
+content-foreground = #0072ff
+
+[module/LSEP]
+type = custom/text
+content = "🙽"
+content-background = #141819
+content-foreground = #0072ff
+
+
+[module/RSEPb]
+type = custom/text
+content = ""
+content-background = #141819
+content-foreground = #0072ff
+
+[module/LSEPb]
+type = custom/text
+content = ""
+content-background = #141819
+content-foreground = #0072ff

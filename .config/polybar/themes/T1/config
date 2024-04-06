@@ -1,0 +1,109 @@
+; ______________
+; |  \o| . ||__   https://youtube.com/@diws
+; |__/||_|_| __|  https://github.com/diws1
+;
+; Polybar Theme 1 (T1)
+
+[global/wm]
+include-file = ./modules/separator
+include-file = ./modules/allmodules
+
+[settings]
+screenchange-reload = true
+pseudo-transparency = true
+
+
+
+;-_-_-_-_-_-_-_-_TOP BAR-_-_-_-_-_-_-_-_-_
+
+[bar/top]
+width = 100%
+height = 24pt
+radius = 6
+bottom = false
+
+; dpi = 96
+
+background = #141819
+foreground = #f9f9f9
+
+line-size = 3pt
+
+border-size = 4pt
+border-color = #00000000
+
+padding-left = 1
+padding-right = 1
+
+module-margin = 1
+modules-left = menu xworkspaces LSEP wmsettings wallpapers themes browser filemanager terminal LSEP xwindow
+;modules-center = filesystem cpu memory
+modules-right = mpd RSEP pulseaudio xkeyboard battery wlan eth date powermenu
+
+separator = |
+separator-foreground = #00676767
+
+font-0 = JetBrains Mono Medium:pixelsize=8;2
+font-1 = FontAwesome:pixelsize=9;2
+font-2 = Noto Sans Mono:pixelsize=21;6
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+enable-ipc = true
+
+; tray-position = right
+
+; wm-restack = generic
+; wm-restack = bspwm
+; wm-restack = i3
+
+; override-redirect = true
+
+; vim:ft=dosini
+
+
+
+;-_-_-_-_-_-_-_-_BOTTOM BAR-_-_-_-_-_-_-_-_-_
+
+[bar/bottom]
+width = 20.5%
+height = 20pt
+radius = 0
+bottom = true
+offset-x = 250
+
+; dpi = 96
+
+background = #141819
+foreground = #f9f9f9
+
+line-size = 3pt
+
+border-size = 0pt
+border-color = #00000000
+
+padding-left = 1
+padding-right = 1
+
+module-margin = 1
+;modules-left = 
+modules-center = user htop LSEPb filesystem memory cpu RSEPb
+;modules-right = 
+
+;separator = 
+;separator-foreground = #00676767
+
+font-0 = JetBrains Mono Medium:pixelsize=8;2
+font-1 = FontAwesome:pixelsize=9;2
+font-2 = Fira Code:pixelsize=19;6
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+enable-ipc = true
+
+;tray-position = right
+
+
+
