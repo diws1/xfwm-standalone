@@ -1,26 +1,42 @@
 # A Keybinds for Launch The Applications #
 
-# Global
+# Quit
 super + Escape
-  pkill xfwm4
+        pkill xfwm4
 
 # Lockscreen
 super + Delete
-  xtrlock
+        xtrlock
 
 # Terminal
 super + Return
-  alacritty
+        alacritty
 
 # File manager
 super + d
-  thunar
+        thunar
 
 # Browser
 super + b
-  chromium
+        chromium
 
 # Menu
 super + @space
-  rofi -show drun
+        rofi -show drun
+
+# Screenshots
+super + s
+        xfce4-screenshooter
+
+# Audio player
+super + m
+        alacritty -e ncmpcpp
+
+# Audio visualizer
+super + shift + m
+        alacritty -e cava
+
+# Reload sxhkd config
+super + shift + r
+        pkill -USR1 -x sxhkd
 
