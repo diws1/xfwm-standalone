@@ -1,0 +1,21 @@
+# The Keybinds Setting File #
+
+# Global
+super + Escape
+  pkill xfwm4
+
+# Terminal
+super + Return
+  alacritty
+
+# File manager
+super + d
+  thunar
+
+# Browser
+super + b
+  chromium
+
+# Lockscreen
+super + Delete
+  xtrlock
