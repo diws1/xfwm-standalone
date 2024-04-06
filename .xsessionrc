@@ -1,0 +1,11 @@
+# The Autostart File #
+
+# Global
+sxhkd &
+
+# Wallpaper
+nitrogen --restore &
+
+# Panel
+~/.config/polybar/themes/sero/sero.conf &
+
