@@ -1,1 +1,65 @@
-# A config file for rofi #
+
+configuration {
+        modi: "drun,run,window";
+        display-drun: " ";
+        font: "JetBrains Mono 8";
+        show-icons: true;
+	icon-theme: "Gruvbox Plus Dark";
+        sidebar-mode: false;
+}
+
+* {
+        background: #16191f;
+        alternate-normal-background: #16191f;
+        selected-normal-background: #f9f9f9;
+        selected-normal-foreground: #000000;
+        foreground: #ffffff;
+	margin: 2;
+}
+
+window {
+        border: 0;
+	border-radius: 6;
+	border-color: #f9f9f9;
+        height: 50%;
+        width: 35%; 
+	x-offset: -430;
+	y-offset: 150;    
+        padding: 25;
+}
+
+textbox-prompt-colon {
+        enabled: false;
+        str: ":";
+}
+
+entry {
+        placeholder: "Search...";
+}
+
+num-filtered-rows {
+        enabled: false;
+}
+
+textbox-num-sep {
+        enabled: false;
+        str: "/";
+}
+
+num-rows {
+        enabled: false;
+}
+
+listview {
+        columns: 2;
+        scrollbar: true;
+        spacing: 3px;
+}
+
+scrollbar {
+        border: 0;
+        handle-width: 7px;
+        handle-color: #f9f9f9;
+        padding: 0;
+}
+
