@@ -1,12 +1,24 @@
 # xfwm-standalone
 
-## preview
+## Why xfwm ?
+xfwm has the all window manager features i need. Like most window managers, I just had to add a few things to make it ready to use, and it was even easier in my opinion.
+
+## How to install xfwm ? 
+[this file](https://github.com/diws1/xfwm-standalone/blob/main/usr/share/xsessions/xfwm4.desktop)
+
+##
+
+### preview
 ![My Image](https://github.com/diws1/xfwm-standalone/blob/main/screenshots/xfwm_idle.png)
-my xfwm on idle \
+my xfwm when idle \
+\
+\
+![My Image](https://github.com/diws1/xfwm-standalone/blob/main/screenshots/xfwm_menu.png)
+besides using sxhkd as an launcher, i also use rofi \
 \
 \
 ![My Image](https://github.com/diws1/xfwm-standalone/blob/main/screenshots/xfwm_termdir.png)
-just showing you some applications when opened \
+only shows you when some apps are opened \
 \
 \
 ![My Image](https://github.com/diws1/xfwm-standalone/blob/main/screenshots/xfwm_tilling.png)
@@ -14,10 +26,10 @@ xfwm tilling, yups you can make xfwm like tilling window manager just using the 
 \
 \
 ![My Image](https://github.com/diws1/xfwm-standalone/blob/main/screenshots/xfwm_themes.png)
-the theme i used on this config :) thanks for all creator !!!
+all the theme that i use on this config :) thanks for all creators !!!
 
 
 
-### another polybar theme
+#### another polybar theme
 ![My Image](https://github.com/diws1/xfwm-standalone/blob/main/screenshots/xfwm_idle2.png)
-you can select the polybar theme on my another repos :)
+you can choose polybar themes in my other repos :)
