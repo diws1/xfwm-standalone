@@ -19,7 +19,8 @@ sudo nano /usr/share/xsessions/xfwm4.desktop
 - <b>xfwm4-tweaks-settings</b> for compositor
 - <b>xfwm4-workspace-settings</b> for workspace and gaps
 
-><b>Note: xfwm4-settings</b> can't be used as an apps launcher, so i need to install <b>sxhkd</b> for that.
+> [!NOTE]
+> <b>xfwm4-settings</b> can't be used as an apps launcher, so i need to install <b>sxhkd</b> for that.
 ```
 sudo apt install sxhkd
 ```
@@ -49,7 +50,7 @@ xfwm tilling, yups you can make xfwm like tilling window manager just using the 
 \
 \
 ![My Image](https://github.com/diws1/xfwm-standalone/blob/main/screenshots/xfwm_themes.png)
-all the theme that i use on this config, thanks for all creators !!!\
+all the theme that i use on this config, thanks for all creators !!!
 
 
 ### another polybar theme
