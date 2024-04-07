@@ -15,9 +15,9 @@ sudo nano /usr/share/xsessions/xfwm4.desktop
 ```
 
 <b>xfwm has three setting options by default :</b>\
-<b>xfwm4-settings</b> for theme and shortcuts\
-<b>xfwm4-tweaks-settings</b> for compositor\
-<b>xfwm4-workspace-settings</b> for workspace and gaps
+- <b>xfwm4-settings</b> for theme and shortcuts\
+- <b>xfwm4-tweaks-settings</b> for compositor\
+- <b>xfwm4-workspace-settings</b> for workspace and gaps
 
 ><b>Note: xfwm4-settings</b> can't be used as an apps launcher, so i need to install <b>sxhkd</b> for that.
 ```
