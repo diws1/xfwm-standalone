@@ -10,6 +10,9 @@ sudo apt install xfwm4
 ```
 
 to get started, you can start xfwm with a display manager. in this case i use <b>lightdm</b>, so i need to create [<b>xfwm4.desktop</b>](https://github.com/diws1/xfwm-standalone/blob/main/usr/share/xsessions/xfwm4.desktop) file on my <b><i>/usr/share/xsessions/</i></b> directory.
+```
+sudo nano /usr/share/xsessions/xfwm4.desktop
+```
 
 <b>xfwm has three setting options by default :</b>\
 <b>xfwm4-settings</b> for theme and shortcuts\
@@ -22,7 +25,9 @@ sudo apt install sxhkd
 ```
 
 The last step is to create the autostart file. I use <b>Debian</b> and <b>lightdm</b> as display manager, so I need to create the [<b>.xsessionrc</b>](https://github.com/diws1/xfwm-standalone/blob/main/.xsessionrc) file, and enter <b>sxhkd</b> into it. 
-
+```
+sudo nano ~/.xsessionrc
+```
 
 ##
 
