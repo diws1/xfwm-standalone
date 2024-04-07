@@ -5,6 +5,9 @@ xfwm has the all window manager features i need. Like most window managers, I ju
 
 ## How to install xfwm ? 
 xfwm is generally provided by the package <b>xfwm4</b>.
+```
+sudo apt install xfwm4
+```
 
 to get started, you can start xfwm with a display manager. in this case i use <b>lightdm</b>, so i need to create [<b>xfwm4.desktop</b>](https://github.com/diws1/xfwm-standalone/blob/main/usr/share/xsessions/xfwm4.desktop) file on my <b><i>/usr/share/xsessions/</i></b> directory.
 
@@ -13,7 +16,10 @@ xfwm has three setting options by default:\
 <b>xfwm4-tweaks-settings</b> for compositor\
 <b>xfwm4-workspace-settings</b> for workspace and gaps
 
-<b>Note: xfwm4-settings</b> can't be used as an apps launcher, so i need to install <b>sxhkd</b> for that.
+> <b>Note: xfwm4-settings</b> can't be used as an apps launcher, so i need to install <b>sxhkd</b> for that.
+```
+sudo apt install sxhkd
+```
 
 The last step is to create the autostart file. I use <b>Debian</b> and <b>lightdm</b> as display manager, so I need to create the [<b>.xsessionrc</b>](https://github.com/diws1/xfwm-standalone/blob/main/.xsessionrc) file, and enter <b>sxhkd</b> into it. 
 
@@ -22,26 +28,25 @@ The last step is to create the autostart file. I use <b>Debian</b> and <b>lightd
 
 ### preview
 ![My Image](https://github.com/diws1/xfwm-standalone/blob/main/screenshots/xfwm_idle.png)
-my xfwm when idle \
+my xfwm when idle\
 \
 \
 ![My Image](https://github.com/diws1/xfwm-standalone/blob/main/screenshots/xfwm_menu.png)
-besides using sxhkd as an launcher, i also use rofi \
+besides using sxhkd as an launcher, i also use rofi\
 \
 \
 ![My Image](https://github.com/diws1/xfwm-standalone/blob/main/screenshots/xfwm_termdir.png)
-only shows you when some apps are opened \
+only shows you when some apps are opened\
 \
 \
 ![My Image](https://github.com/diws1/xfwm-standalone/blob/main/screenshots/xfwm_tilling.png)
-xfwm tilling, yups you can make xfwm like tilling window manager just using the <i><b>xfwm4-workspace-settings</b><i/> \
+xfwm tilling, yups you can make xfwm like tilling window manager just using the <i><b>xfwm4-workspace-settings</b><i/>\
 \
 \
 ![My Image](https://github.com/diws1/xfwm-standalone/blob/main/screenshots/xfwm_themes.png)
-all the theme that i use on this config, thanks for all creators !!!
-
-
-
-#### another polybar theme
+all the theme that i use on this config, thanks for all creators !!!\
+\
+\
+### another polybar theme
 ![My Image](https://github.com/diws1/xfwm-standalone/blob/main/screenshots/xfwm_idle2.png)
 you can choose polybar themes in my other repos :)
