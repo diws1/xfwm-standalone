@@ -55,4 +55,4 @@ all the theme that i use on this config, thanks for all creators !!!
 
 ### another polybar theme
 ![My Image](https://github.com/diws1/xfwm-standalone/blob/main/screenshots/xfwm_idle2.png)
-you can choose polybar themes in my other repos :)
+you can choose polybar themes in my other [repos](https://github.com/diws1/polybar-theme) :)
